@@ -40,7 +40,7 @@ body {
     list-style-type: none;
 }
 
-/* changed from div to nav to reflect html change */
+/* changed from div li to nav li to reflect html change */
 
 .header nav ul li {
     display: inline-block;
@@ -92,6 +92,13 @@ p {
     background-color: #2589bd;
 }
 
+/* Changed benefit- classes to benefit to consolidate */
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
 /* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -107,8 +114,14 @@ p {
     color: #ffffff;
 } */
 
+/* changed from .benefit- class h3 to .benefit class h3 to consolidate */
 
-.benefit-lead h3 {
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -121,8 +134,10 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
+
 /* consolidated benefit-(value) classes into a singular benefit class */
+
 .benefit {
     display: block;
     margin: 10px auto;
@@ -130,12 +145,15 @@ p {
     margin-bottom: 32px;
     color:#ffffff
 }
+
 /* changed invidual .benefit-(value) img elements to singular .benefit img */
+
 .benefit img {
     display:block;
     margin: 10px auto;
     max-width: 150px;
 }
+
 /*.benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -153,7 +171,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 } */
+
 /* Added linkedimage as a class to consolidate multiple classes into one. */
+
 .linkedimage {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,6 +182,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 /* .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -189,7 +210,13 @@ p {
     color: #ffffff;
 } */
 
-#search-engine-optimization img {
+/* max-height property added by ID consolidated into singular .linkedimage class */
+
+.linkedimage img {
+    max-height: 200px;
+}
+
+/* #search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -199,9 +226,16 @@ p {
 
 #social-media-marketing img {
     max-height: 200px;
+} */
+
+/* changed individual classes with h2 child into singular .linkedimage class h2 elenent to consolidate */
+
+.linkedimage h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.search-engine-optimization h2 {
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -214,7 +248,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
