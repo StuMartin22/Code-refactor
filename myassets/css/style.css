@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-/* Changed to nav from div to reflect change in html */
+/* Changed from div to nav to reflect change in html */
 
 .header nav {
     padding-top: 15px;
@@ -34,7 +34,7 @@ body {
     font-size: 20px;
 }
 
-/* changed from .header div ul to nav ul to reflect html change */
+/* changed from .header div ul to .header nav ul to reflect html change */
 
 .header nav ul {
     list-style-type: none;
@@ -92,7 +92,7 @@ p {
     background-color: #2589bd;
 }
 
-/* Changed benefit- classes to benefit to consolidate */
+/* Changed benefit-ID to .benefit to consolidate */
 
 .benefit {
     margin-bottom: 32px;
@@ -114,7 +114,7 @@ p {
     color: #ffffff;
 } */
 
-/* changed from .benefit- class h3 to .benefit class h3 to consolidate */
+/* changed from .benefit-ID h3 to .benefit h3 to consolidate */
 
 .benefit h3 {
     margin-bottom: 10px;
@@ -136,7 +136,7 @@ p {
     text-align: center;
 } */
 
-/* consolidated benefit-(value) classes into a singular benefit class */
+/* consolidated .benefit-ID into a singular benefit class */
 
 .benefit {
     display: block;
@@ -146,7 +146,7 @@ p {
     color:#ffffff
 }
 
-/* changed invidual .benefit-(value) img elements to singular .benefit img */
+/* changed invidual .benefit-ID img elements to singular .benefit img */
 
 .benefit img {
     display:block;
@@ -172,7 +172,7 @@ p {
     max-width: 150px;
 } */
 
-/* Added linkedimage as a class to consolidate multiple classes into one. */
+/* Added .linkedimage as a class to consolidate multiple classes into one. */
 
 .linkedimage {
     margin-bottom: 20px;
@@ -228,7 +228,7 @@ p {
     max-height: 200px;
 } */
 
-/* changed individual classes with h2 child into singular .linkedimage class h2 elenent to consolidate */
+/* changed individual classes with h2 child into singular .linkedimage h2 elenent to consolidate */
 
 .linkedimage h2 {
     margin-bottom: 20px;
